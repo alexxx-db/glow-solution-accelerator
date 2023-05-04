@@ -487,7 +487,7 @@ job_json = {
                         "spark.databricks.photon.allDataSources.enabled": "true",
                         "spark.databricks.photon.photonRowToColumnar.enabled": "true"
                     },
-                    "node_type_id": {"AWS": "i4i.4xlarge", "MSA": "Standard_L4as_v3", "GCP": "n2-highmem-4"},
+                    "node_type_id": {"AWS": "i4i.4xlarge", "MSA": "Standard_L8as_v3", "GCP": "n2-highmem-4"},
                     "custom_tags": {
                         "project": "glow",
                         "domain": "genomics",
@@ -514,7 +514,7 @@ job_json = {
                     "spark_conf": {
                         "spark.databricks.delta.preview.enabled": "true"
                     },
-                    "node_type_id": {"AWS": "i4i.4xlarge", "MSA": "Standard_L4as_v3", "GCP": "n2-highmem-4"},
+                    "node_type_id": {"AWS": "i4i.4xlarge", "MSA": "Standard_L8as_v3", "GCP": "n2-highmem-4"},
                     "custom_tags": {
                         "project": "glow",
                         "domain": "genomics",

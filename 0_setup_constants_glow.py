@@ -5,7 +5,7 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC 
+# MAGIC
 # MAGIC #### Set up constants for Glow to use in GWAS workflow notebooks
 
 # COMMAND ----------
@@ -48,8 +48,8 @@ import matplotlib.pyplot as plt
 # COMMAND ----------
 
 #genotype matrix
-n_samples = 500000 # 500K, 1M
-n_variants = 100000 # 100K, 250K, 500K, 1M
+n_samples = 10000 # 500K, 1M
+n_variants = 10000 # 100K, 250K, 500K, 1M
 
 #partitions
 n_partitions = int(n_variants / 20) #good heuristic is 20 variants per partition at 500k samples
